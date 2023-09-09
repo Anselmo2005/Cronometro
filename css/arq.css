@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Orbitron:wght@500&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans' ;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    background-color:gray    ;
+    height: 100vh;
+}
+.container h1 {
+    color: black;
+   
+
+}
+.timer {
+    display: flex;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+
+}
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: black;
+    min-width: 90px;
+    
+}
+
+.separator {
+    padding: 0 10px;
+    color: #f1f1f1
+    
+}
+
+#milliseconds {
+    font-size: 30px;
+    color: white ;
+}
+.buttons {
+    display: flex;
+    gap: 1rem;
+    
+
+}
+.btn {
+    padding: 10px   20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: all 0.2s    ease-in-out;
+
+}
+.btn:hover {
+        transform: scale(1.2);
+    }
+    #startBtn {
+        background-color: green;
+        color: #f1f1f1;
+    }
+    #resumeBtn, #pauseBtn {
+        display: none;
+    }
+    #resumeBtn{
+        background-color: green;
+
+    }
+    
